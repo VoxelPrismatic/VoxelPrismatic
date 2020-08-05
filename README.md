@@ -1,16 +1,17 @@
-### Hi there 👋
+# #] Hey there, mate
+You may be wondering what I am actively working on.
 
-<!--
-**VoxelPrismatic/VoxelPrismatic** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### #] PRIZM ;]
+A Discord bot. [[link]](https://voxelprismatic.github.io/prizm.dev/prizm/)
 
-Here are some ideas to get you started:
+*Note: the repo doesn't update often because I no longer use GitHub as my main backup*
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### #] PRIZcord
+Making the Discord theme darker, with extra features. [[link]](https://github.com/voxelprismatic/prizcord)
+
+### #] PRIZMATIC
+A Discord API wrapper. [[link]](https://github.com/voxelprismatic/prizmatic)
+
+*Note: The repo doesn't update often because Discord's API is a pain to deal with, I will update the repo when I transfer my bot over to it*
+
+# #] Feel free to contribute
