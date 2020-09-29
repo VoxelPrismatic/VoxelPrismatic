@@ -9,9 +9,7 @@ A Discord bot. [[link]](https://voxelprismatic.github.io/prizm.dev/prizm/)
 ### #] PRIZcord
 Making the Discord theme darker, with extra features. [[link]](https://github.com/voxelprismatic/prizcord)
 
-### #] PRIZMATIC
-A Discord API wrapper. [[link]](https://github.com/voxelprismatic/prizmatic)
-
-*Note: The repo doesn't update often because Discord's API is a pain to deal with, I will update the repo when I transfer my bot over to it*
+### #] PRIZ PLAYER ;]
+A next gen music player with a terminal aesthetic. [[link]](https://github.com/voxelprismatic/prizplayer)
 
 # #] Feel free to contribute
