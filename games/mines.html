@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <!-- DYNAMIC BETWEEN PAGES -->
+        <meta property="og:title" content="MINES ;]" id="title">
+        <meta property="og:description" content="A simple game of minesweeper">
+        <meta name="description" content="A simple game of mineseeper">
+
+        <!-- STATIC BETWEEN PAGES -->
+        <meta property="og:type" content="website">
+        <meta name="twitter:site" content="@VoxelPrismatic">
+        <meta name="twitter:creator" content="@VoxelPrismatic">
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:image" content="https://voxelprismatic.github.io/prizm.dev/assets/image/webp/favi/priz_blurple.webp">
+        <meta property="og:image" content="https://voxelprismatic.github.io/prizm.dev/assets/image/favicon.png">
+        <meta name="theme-color" content="#0088FF">
+        <meta property="og:site_name" content="PRIZ ;]">
+        <meta property="og:image:type" content="image/png">
+        <meta property="og:image:width" content="256">
+        <meta property="og:image:height" content="256">
+        <meta property="og:url" content="https://voxelprismatic.github.io/prizm.dev/">
+        <title>MINES ;]</title>
+        <link rel="icon" type="image/png" href="https://voxelprismatic.github.io/prizm.dev/assets/image/favicon.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+        <meta property="og:url" content="https://voxelprismatic.github.io/prizm.dev/games/mines">
+        <meta name="author" content="PRIZ ;]">
+        <style type="text/css">
+            * {
+                font-family: "Ubuntu Mono";
+            } #head {
+                top: -100px !important;
+            } #keys tr:nth-child(odd) {
+                background-color: #233;
+            } #keys tr:first-child {
+                background-color: #344;
+            } #keys td, #keys th {
+                margin: 5px;
+                padding: 5px;
+            } pre#logo {
+                width: 100%;
+                text-align: center;
+                font-weight: bold;
+                font-size: 24px;
+                color: #0ff;
+            } .board {
+                margin: auto;
+                border-spacing: 4px;
+            } .board td {
+/*                 height: 24px; */
+/*                 width: 24px; */
+                transition: all 0.1s cubic-bezier(0, 0.5, 0, 1);
+            } .board.main td {
+                background-color: #233;
+/*                 border: 3px #122 solid; */
+            }
+            .cyan, .nuclear, .magenta, .purple, .seafoam, .seawater,
+            .blue, .orange, .yellow, .green, .red, .garbage {
+                transition: none !important;
+                text-align: center;
+            }
+            .cyan {
+                background-color: #244 !important;
+                color: #0ff;
+            } .nuclear {
+                background-color: #342 !important;
+                color: #f80;
+            } .magenta {
+                background-color: #424 !important;
+                color: #f0f.
+            } .purple {
+                background-color: #324 !important;
+                color: #80f;
+            } .seafoam {
+                background-color: #243 !important;
+                color: #0f8;
+            } .seawater {
+                background-color: #234 !important;
+                color: #08f;
+            } .blue {
+                background-color: #114 !important;
+                color: #44f;
+            } .orange {
+                background-color: #432 !important;
+                color: #f80;
+            } .yellow {
+                background-color: #442 !important;
+                color: #ff0;
+            } .green {
+                background-color: #242 !important;
+                color: #0f0;
+            } .red {
+                background-color: #422 !important;
+                color: #f00;
+            } .pink {
+                background-color: #f088 !important;
+                color: #f08;
+            } .garbage {
+                background-color: #233 !important;
+                color: #233;
+            } .cleared td {
+                background-color: #fff !important;
+                border: 2px #fff solid !important;
+                transition: none !important;
+            } h1, h3, details {
+                color: #0ff;
+                text-align: center;
+            } .mid {
+                position: absolute;
+                left: 50%;
+                transform: translateX(-50%);
+            } .noopac {
+                opacity: 0 !important;
+            } summary h3 {
+                display: inline-block;
+            } button {
+                background-color: #0ff4;
+                border: 2px solid #0ff;
+                color: #0ff;
+                border-radius: 4px;
+                padding: 10px;
+                margin: 10px;
+                height: 37px;
+                width: 37px;
+                font-size: 18px;
+                font-weight: bold;
+            }
+
+            .board.ed td:first-child,
+            .board.ed td:last-child,
+            .board.ed tr:first-child td,
+            .board.ed tr:last-child td {
+                height: 0px;
+                width: 0px;
+                padding: 0px;
+                border: none !important;
+                background-color: #0000 !important;
+                display: none;
+            }
+
+            #cover td {
+                background-color: #344;
+            } #cover td.clicked {
+                background-color: #0000;
+            } #cover td.marked {
+                background-color: #ff0;
+            }
+
+            #fuckme {
+                line-height: 8px;
+                font-size: 75%;
+                height: 20px;
+            } #logo:hover {
+                cursor: pointer;
+            } button[onclick]:hover {
+                cursor: pointer;
+            }
+            #highlight td.white {
+                opacity: 1;
+                border: 2px solid #0ff8;
+                height: 16px;
+                width: 16px;
+            } #highlight td.white.highlighted {
+                animation: white 1s infinite ease-in-out;
+                border-width: 4px;
+                height: 14px;
+                width: 14px;
+            }
+            #highlight {
+                border-spacing: 2px;
+            }
+            #highlight td {
+                width: 20px;
+                height: 20px;
+                border: #0000 solid 2px;
+            }
+            @keyframes white {
+                0% { border-color: #fff; }
+                25% { border-color: #8ff; }
+                50% { border-color: #afa; }
+                75% { border-color: #fac; }
+                100% { border-color: #fff; }
+            }
+        </style>
+    </head>
+    <body class="bgcolor" style="background-color: #122">
+        <pre id="logo" onclick="location='/prizm.dev/games/'">
+___  ___  ___
+\  \ | | /  /
+\  \| |/  /
+---] MINES [---
+/  /| |\  \
+/__/ |_| \__\
+<i>~priz edition~</i>
+        </pre>
+        <div style="text-align: center">
+            <details>
+                <summary><h3>Key map</h3></summary>
+                <table style="color: #ccc; margin: auto;" id="keys">
+                    <tbody><tr>
+                        <th>Key</th>
+                        <th>Action</th>
+                    </tr>
+                    <tr>
+                        <td>&Lambda;</td>
+                        <td>Move cursor up</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;</td>
+                        <td>Move cursor left</td>
+                    </tr>
+                    <tr>
+                        <td>&gt;</td>
+                        <td>Move cursor right</td>
+                    </tr>
+                    <tr>
+                        <td>V</td>
+                        <td>Move cursor down</td>
+                    </tr>
+                    <tr>
+                        <td>Enter</td>
+                        <td>Reveal cell</td>
+                    </tr>
+                    <tr>
+                        <td>Shift</td>
+                        <td>Mark as a mine</td>
+                    </tr></tbody></table>
+            </details>
+            <details>
+                <summary><h3>Settings</h3></summary>
+                <table style="color: #ccc; margin: auto;" id="keys">
+                    <tbody><tr>
+                        <th>Option</th>
+                        <th>Value</th>
+                    </tr>
+                    <tr>
+                        <td>Width<br><i>*Will reset board</i></td>
+                        <td>
+                            <input id="width" type="number" min="10" max="100" value="10"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Height<br><i>*Will reset board</i></td>
+                        <td>
+                            <input id="height" type="number" min="10" max="100" value="10"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Mines<br><i>*Will reset board</i></td>
+                        <td>
+                            <input id="mines" type="number" min="10" max="100000" value="10"/>
+                        </td>
+                    </tr>
+                    <!--<tr>
+                        <td>Timer</td>
+                        <td><input type="checkbox" id="timer" onchange="localStorage.setItem('__mines__timer', Number(this.checked))" checked="checked"></td>
+                    </tr>-->
+                </tbody></table>
+            </details>
+        </div>
+        <div>
+            <!--<h3>Score: <span id="score">0</span> // Level: <span id="level">1</span></h3>-->
+            <h1>-- Board --</h1>
+            <table class="board main ed mid" id="grid" style="width: 240px; height: 240px;"><tbody></tbody></table>
+
+            <table class="board ed mid" id="cover" style="width: 240px; height: 240px;"><tbody></tbody></table>
+
+            <table class="board ed" style="position: relative; z-index: 100;" id="highlight"><tbody></tbody></table>
+
+            <div style="text-align: center;">
+                <div style="color:#ccc">Consider supporting me on <a href="https://voxelprismatic.github.io/prizm.dev/re/patreon" style="color:#0ff" target="_blank">Patreon</a>!</div>
+                <button onclick="window.onkeydown(0, 'x')" title="Mark as mine">X</button><button onclick="window.onkeydown(0, 'w')" title="Move up">Λ</button><button onclick="window.onkeydown(0, 'Enter')" title="Reveal cell">#</button> <br>
+                <button onclick="window.onkeydown(0, 'a')" title="Move left">&lt;</button><button onclick="window.onkeydown(0, 's')" title="Move down">V</button><button onclick="window.onkeydown(0, 'd')" title="Move right">&gt;</button> <br>
+                <button onclick="board_size()" style="width: unset">New game</button>
+            </div>
+
+        </div>
+        <div id="content">
+            <script type="text/javascript">
+                function $(...a) { return document.querySelector(...a); }
+                function $$(...a) { return document.querySelectorAll(...a); }
+
+                var curX, curY
+                var board_st = ""
+
+                var revealed = {}
+
+                function reveal(x, y) {
+                    if(!revealed[x])
+                        revealed[x] = []
+                    else if(revealed[x].includes(y))
+                        return
+                    var e = get_cell(x, y, $("#cover"))
+                    if(e.className.includes("marked"))
+                        return e.classList.remove("marked")
+                    e.classList.add("clicked");
+                    try {
+                        var val = get_cell(x, y).innerHTML
+                        if(val == "0") {
+                            get_cell(x, y, $("#cover")).classList.add("clicked");
+                            revealed[x].push(y);
+                            reveal(x + 1, y - 1);
+                            reveal(x + 1, y);
+                            reveal(x + 1, y + 1);
+                            reveal(x, y - 1);
+                            reveal(x, y + 1);
+                            reveal(x - 1, y - 1);
+                            reveal(x - 1, y);
+                            reveal(x - 1, y + 1);
+                        } else if(val == "X") {
+                            for(var mine of $$("#cover td:not(.clicked)")) {
+                                mine.style.opacity = "0.25"
+                                mine.style.backgroundColor = "#fff"
+                            }
+                            alert("You lost ;n;");
+                        }
+                    } catch(err) {
+//                         console.error(err)
+                    }
+                }
+
+                function potential(evt, target) {
+                    var x, y;
+                    if(target) {
+                        [x, y] = get_coord(target);
+                    } else {
+                        [x, y] = get_coord(evt.target);
+                        evt.preventDefault();
+                        evt.stopPropagation();
+                        evt.cancelBubble = true;
+                        target = evt.target
+                    }
+                    if(revealed[x] && revealed[x].includes(y))
+                        return false;
+                    layered_coord(target, $("#cover")).classList.add("marked");
+                    return false;
+                }
+                window.onresize = (evt) => {
+                    w = $("#highlight").clientWidth + "px";
+                    h = $("#highlight").clientHeight + "px";
+                    $("#grid").style.width = w;
+                    $("#cover").style.width = w;
+                    $("#grid").style.height = h;
+                    $("#cover").style.height = h;
+                    if(evt)
+                        window.setTimeout(window.onresize, 100)
+                }
+                function board_size() {
+                    tables = [
+                        $("#grid"),
+                        $("#cover"),
+                        $("#highlight")
+                    ]
+                    revealed = {};
+                    board_st = "";
+                    for(y = 0; y < maxY; y += 1) {
+                        board_st += "<tr> "
+                        for(var x = 0; x < maxX; x += 1)
+                            board_st += "<td></td> "
+                        board_st += "</tr>\n"
+                    }
+                    for(var t of tables) {
+                        try {
+                            for(var y = 0; y < maxY; y += 1)
+                                t.rows[0].remove();
+                        } catch(err) {
+                        }
+                        t.innerHTML = board_st;
+                    }
+
+                    localStorage.setItem("__mines__width", maxX)
+                    localStorage.setItem("__mines__height", maxY)
+                    localStorage.setItem("__mines__count", maxN)
+                    score = 0;
+                    window.onresize();
+                    curX = Math.floor(maxX / 2);
+                    curY = Math.floor(maxY / 2);
+                    for(var cell of $$("#highlight td")) {
+                        cell.onmouseover = (evt) => {
+                            cursor(...get_coord(evt.target));
+                        }
+                        cell.onclick = (evt) => {
+                            reveal(...get_coord(evt.target));
+                        }
+                        cell.oncontextmenu = (evt) => {
+                            potential(evt);
+                        }
+
+                    }
+
+                    var grid = []
+                    for(var y = 0; y < maxY; y += 1) {
+                        var row = [];
+                        for(var x = 0; x < maxX; x += 1) {
+                            row.push("");
+                        }
+                        grid.push(row);
+                    }
+                    for(var n = 0; n < maxN; n += 1) {
+                        var x = Math.floor(Math.random() * (maxX - 2)) + 1;
+                        var y = Math.floor(Math.random() * (maxY - 2)) + 1;
+                        while(grid[y][x]) {
+                            x = Math.floor(Math.random() * (maxX - 2)) + 1;
+                            y = Math.floor(Math.random() * (maxY - 2)) + 1;
+                        }
+                        grid[y][x] = "X"
+                    }
+                    console.log(grid)
+
+                    for(var x = 0; x < maxX; x += 1) {
+                        for(var y = 0; y < maxY; y += 1) {
+                            if(!grid[y][x]) {
+                                grid[y][x] = 0;
+                                if(grid[y - 1]) {
+                                    if(grid[y - 1][x - 1] == "X")
+                                        grid[y][x] += 1;
+                                    if(grid[y - 1][x] == "X")
+                                        grid[y][x] += 1;
+                                    if(grid[y - 1][x + 1] == "X")
+                                        grid[y][x] += 1;
+                                }
+                                if(grid[y][x - 1] == "X")
+                                    grid[y][x] += 1;
+                                if(grid[y][x + 1] == "X")
+                                    grid[y][x] += 1;
+                                if(grid[y + 1]) {
+                                    if(grid[y + 1][x - 1] == "X")
+                                        grid[y][x] += 1;
+                                    if(grid[y + 1][x] == "X")
+                                        grid[y][x] += 1;
+                                    if(grid[y + 1][x + 1] == "X")
+                                        grid[y][x] += 1;
+                                }
+                            }
+
+                            var cell = get_cell(x, y);
+                            cell.innerHTML = grid[y][x]
+                            switch(grid[y][x]) {
+                                case "X":
+                                    cell.className = "red";
+                                    break;
+                                case 0:
+                                    cell.className = "garbage";
+                                    break;
+                                case 1:
+                                    cell.className = "cyan";
+                                    break;
+                                case 2:
+                                    cell.className = "seawater";
+                                    break;
+                                case 3:
+                                    cell.className = "seafoam";
+                                    break;
+                                case 4:
+                                    cell.className = "green";
+                                    break;
+                                case 5:
+                                    cell.className = "yellow";
+                                    break;
+                                case 6:
+                                    cell.className = "nuclear";
+                                    break;
+                                case 7:
+                                    cell.className = "magenta";
+                                    break;
+                                case 8:
+                                    cell.className = "pink";
+                                    break;
+                            }
+
+                        }
+                    }
+
+                }
+
+                function get_coord(cell) {
+                    var x = cell.cellIndex;
+                    var y = cell.parentElement.rowIndex;
+                    return [x, y]
+                }
+                function get_cell(x, y, grid = $("#grid")) {
+                    return grid.rows[y].cells[x];
+                }
+
+                function layered_coord(cell, target) {
+                    var x, y
+                    [x, y] = get_coord(cell)
+                    return target.rows[y].cells[x]
+                }
+
+                function cursor(nX, nY) {
+                    curX = nX
+                    curY = nY
+                    for(var cursor of $$(".white"))
+                        cursor.className = "";
+                    get_cell(curX - 1, curY - 1, $("#highlight")).className = "white"
+                    get_cell(curX - 1, curY, $("#highlight")).className = "white"
+                    get_cell(curX - 1, curY + 1, $("#highlight")).className = "white"
+                    get_cell(curX, curY - 1, $("#highlight")).className = "white"
+                    get_cell(curX, curY, $("#highlight")).className = "white highlighted"
+                    get_cell(curX, curY + 1, $("#highlight")).className = "white"
+                    get_cell(curX + 1 , curY - 1, $("#highlight")).className = "white"
+                    get_cell(curX + 1, curY, $("#highlight")).className = "white"
+                    get_cell(curX + 1, curY + 1, $("#highlight")).className = "white"
+                }
+
+                function game_over() {
+                    alert("Game over!\nScore: " + score)
+                    for(table of [$("#grid"), $("#floating"), $("#predict"), $("#dropping")]) {
+                        for(var elem of table.querySelectorAll("td[class]"))
+                            elem.className = ""
+                    }
+                    score = 0;
+                    fillbag();
+                    draw_next_piece();
+                    next_piece_on_board();
+                }
+
+                window.onkeydown = (evt, key) => {
+                    switch(evt.key || key) {
+                        case "ArrowUp":
+                        case "w":
+                        case "W":
+                            cursor(curX, Math.max(1, curY - 1));
+                            if(evt) evt.preventDefault();
+                            break;
+                        case "ArrowLeft":
+                        case "a":
+                        case "A":
+                            cursor(Math.max(curX -1, 1), curY);
+                            if(evt) evt.preventDefault();
+                            break;
+                        case "ArrowRight":
+                        case "d":
+                        case "D":
+                            cursor(Math.min(curX + 1, maxX - 1), curY);
+                            if(evt) evt.preventDefault();
+                            break;
+                        case "ArrowDown":
+                        case "s":
+                        case "S":
+                            cursor(curX, Math.min(maxY - 1, curY + 1));
+                            if(evt) evt.preventDefault();
+                            break;
+                        case "Enter":
+                        case " ":
+                            get_cell(curX, curY, $("#highlight")).click();
+                            if(evt) evt.preventDefault();
+                            break;
+                        case "Shift":
+                        case "Control":
+                        case "x":
+                        case "X":
+                            potential(null, get_cell(curX, curY, $("#highlight")));
+                            if(evt) evt.preventDefault();
+                            break;
+                        case "n":
+                        case "N":
+                            board_size();
+                            if(evt) evt.preventDefault();
+                            break;
+                    }
+                }
+
+                if(Number(localStorage.getItem("__mines__height"))) {
+                    maxY = Number(localStorage.getItem("__mines__height"))
+                    $("#height").value = maxY - 2;
+                } else {
+                    maxY = 12;
+                    $("#height").value = maxY - 2;
+                } if(Number(localStorage.getItem("__mines__width"))) {
+                    maxX = Number(localStorage.getItem("__mines__width"))
+                    $("#width").value = maxX - 2;
+                } else {
+                    maxX = 12;
+                    $("#width").value = maxX - 2;
+                } if(Number(localStorage.getItem("__mines__count"))) {
+                    maxN = Number(localStorage.getItem("__mines__count"));
+                    $("#mines").value = maxN
+                } else {
+                    maxN = 10;
+                    $("#mines").value = 10;
+                }
+
+                $("#height").onchange = (evt) => {
+                    maxY = evt.target.value - -2;
+                    board_size();
+                }
+                $("#width").onchange = (evt) => {
+                    maxX = evt.target.value - -2;
+                    board_size();
+                }
+                $("#mines").onchange = (evt) => {
+                    maxN = evt.target.value;
+                    board_size();
+                }
+                board_size();
+                cursor(Math.floor(maxX / 2), Math.floor(maxY / 2))
+            </script>
+        </div>
+        <link rel="stylesheet" type="text/css" href="/prizm.dev/assets/css/fonts.css">
+    </body>
+</html>
