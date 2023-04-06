@@ -1,21 +1,13 @@
-# [#\] Hey there, mate](https://voxelprismatic.github.io)
-You may be wondering what I am actively working on.\
-College makes finding time for develepment hard, so bear with me
+# Welcome to my GitHub profile
+I'm lazy, but I'll keep it simple.
 
-### #] COMPTELEC
-Modern calcs are boring. [[link]](https://github.com/voxelprismatic/comptelec)
+Christian, Conservative, annoyed with the world.
 
-### #] [7](https://voxelprismatic.github.io/prizm.dev/games/7)
-An endlessly addicting arcade-style game
+Learn more about me [on my website](https://voxelprismatic.github.io/)
 
-# #] Feel free to contribute
-And support me on [Patreon](https://patreon.com/VoxelPrismatic) or [Ko-Fi](https://ko-fi.com/VoxelPrismatic)
-
-# #] Stalk me
 | Platform | Links |
 |-|-|
-| Discord | `PRIZ ;]#9244` [guild](https://discord.gg/Z84Nm6n) |
+| Discord | `PRIZ ;]#9244` |
 | Twitter | [@VoxelPrismatic](https://twitter.com/VoxelPrismatic) |
-| Email | [prizmdev@outlook.com](mailto:prizmdev@outlook.com) |
-| Website | [voxelprismatic.github.io](https://voxelprismatic.github.io/prizm.dev/) |
-| More | [#stalk-me](https://voxelprismatic.github.io/prizm.dev/#STALK-ME-)
+| Website | [voxelprismatic.github.io](https://voxelprismatic.github.io/) |
+| More | [#stalk-me](https://voxelprismatic.github.io/#STALK-ME-)
