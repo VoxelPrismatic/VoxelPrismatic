@@ -4,7 +4,7 @@
     Faith is like a compass.
   </h1>
   <h3>
-    If it's always pointing towards you, you end up lost.
+    If it's always pointing towards you, you'll find yourself lost.
   </h3>
   <br>
   🇺🇸 | #FOSS<br>
