@@ -6,7 +6,7 @@
   <h3>
     If it's always pointing towards you, you end up lost.
   </h3>
-  <br><br>
+  <br>
   🇺🇸 | #FOSS<br>
   —~—<br>
   <a href="https://x.com/voxelprismatic"><img 
