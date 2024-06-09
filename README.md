@@ -6,8 +6,8 @@
   <h3>
     If it's always pointing towards you, you end up lost.
   </h3>
-  —~—<br>
-  <b>🇺🇸 | #FOSS</b><br>
+  <br><br>
+  🇺🇸 | #FOSS<br>
   —~—<br>
   <a href="https://x.com/voxelprismatic"><img 
     src="https://img.shields.io/badge/VoxelPrismatic-white?style=flat&logo=x&logoColor=white&labelColor=black"
