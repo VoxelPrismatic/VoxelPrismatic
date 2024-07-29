@@ -7,7 +7,7 @@
     If it's always pointing towards you, you'll find yourself lost.
   </h3>
   <br>
-  🇺🇸 | #FOSS<br>
+  <img src="https://abs-0.twimg.com/emoji/v2/svg/1f1fa-1f1f8.svg" height="14px"/> | #FOSS | <img src="https://abs.twimg.com/responsive-web/client-web/1f52b.1465b29a.svg" height="14px"/><br>
   —~—<br>
   <a href="https://x.com/voxelprismatic"><img 
     src="https://img.shields.io/badge/VoxelPrismatic-white?style=flat&logo=x&logoColor=white&labelColor=black"
