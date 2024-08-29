@@ -33,3 +33,130 @@
 - Casual programmer
 - Follower of Christ
 - Passionately Open Source
+- Audiophile, apparently
+
+<div align="center">
+  <h1>Current Playlist</h1>
+  <table>
+    <tr>
+      <td>
+        <a href="https://kscopemusic.bandcamp.com/album/atone-expanded-edition" target="_blank">
+          <img src="https://f4.bcbits.com/img/a1286739466_10.jpg" width="196px"/><br/>
+          Atone
+        </a>
+      </td>
+      <td>
+        <a href="https://kscopemusic.bandcamp.com/album/the-cost-of-dreaming" target="_blank">
+          <img src="https://f4.bcbits.com/img/a0091145112_10.jpg" width="196px"/><br/>
+          The Cost of Dreaming
+        </a>
+      </td>
+      <td>
+        <a href="https://kscopemusic.bandcamp.com/album/all-the-wars" target="_blank">
+          <img src="https://f4.bcbits.com/img/a4132842949_10.jpg" width="196px"/><br/>
+          All the Wars
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://kscopemusic.bandcamp.com/album/dissolution" target="_blank">
+          <img src="https://f4.bcbits.com/img/a3906062646_10.jpg" width="196px"/><br/>
+          Dissolution
+        </a>
+      </td>
+      <td>
+        <a href="https://kscopemusic.bandcamp.com/album/all-this-will-be-yours" target="_blank">
+          <img src="https://f4.bcbits.com/img/a2775032393_10.jpg" width="196px"/><br/>
+          All This Will Be Yours
+        </a>
+      </td>
+      <td>
+        <a href="https://deepelmrecords.bandcamp.com/album/the-hunt" target="_blank">
+          <img src="https://f4.bcbits.com/img/a2345326046_10.jpg" width="196px"/><br/>
+          The Hunt
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://deepelmrecords.bandcamp.com/album/where-to-hide" target="_blank">
+          <img src="https://f4.bcbits.com/img/a0412640049_10.jpg" width="196px"/><br/>
+          Where to Hide
+        </a>
+      </td>
+      <td>
+        <a href="https://deepelmrecords.bandcamp.com/album/who-you-are-is-not-enough" target="_blank">
+          <img src="https://f4.bcbits.com/img/a0263193674_10.jpg" width="196px"/><br/>
+          Who You Are is not Enough
+        </a>
+      </td>
+      <td>
+        <a href="https://deepelmrecords.bandcamp.com/album/vi" target="_blank">
+          <img src="https://f4.bcbits.com/img/a2568039307_10.jpg" width="196px"/><br/>
+          VI
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://kscopemusic.bandcamp.com/album/ruins" target="_blank">
+          <img src="https://f4.bcbits.com/img/a3617147731_10.jpg" width="196px"/><br/>
+          Ruins
+        </a>
+      </td>
+      <td>
+        <a href="https://kscopemusic.bandcamp.com/album/your-wilderness" target="_blank">
+          <img src="https://f4.bcbits.com/img/a0782605810_10.jpg" width="196px"/><br/>
+          Your Wilderness
+        </a>
+      </td>
+      <td>
+        <a href="https://kscopemusic.bandcamp.com/album/nothing-but-the-truth" target="_blank">
+          <img src="https://f4.bcbits.com/img/a0725378087_10.jpg" width="196px"/><br/>
+          Nothing But the Truth
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://kscopemusic.bandcamp.com/album/versions-of-the-truth" target="_blank">
+          <img src="https://f4.bcbits.com/img/a3788685040_10.jpg" width="196px"/><br/>
+          Versions of the Truth
+        </a>
+      </td>
+      <td>
+        <a href="https://deepelmrecords.bandcamp.com/album/when-to-run" target="_blank">
+          <img src="https://f4.bcbits.com/img/a1478390910_10.jpg" width="196px"/><br/>
+          When to Run
+        </a>
+      </td>
+      <td>
+        <a href="https://kscopemusic.bandcamp.com/album/rising-sun" target="_blank">
+          <img src="https://f4.bcbits.com/img/a0441544812_10.jpg" width="196px"/><br/>
+          Rising Sun
+        </a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://kscopemusic.bandcamp.com/album/it-leads-to-this" target="_blank">
+          <img src="https://f4.bcbits.com/img/a2988136713_10.jpg" width="196px"/><br/>
+          It Leads to This
+        </a>
+      </td>
+      <td>
+        <a href="https://kscopemusic.bandcamp.com/album/luminescence" target="_blank">
+          <img src="https://f4.bcbits.com/img/a1922605869_10.jpg" width="196px"/><br/>
+          Luminescence
+        </a>
+      </td>
+      <td>
+        <a href="https://earthside.bandcamp.com/album/let-the-truth-speak" target="_blank">
+          <img src="https://f4.bcbits.com/img/a2389434154_10.jpg" width="196px"/><br/>
+          Let the Truth Speak
+        </a>
+      </td>
+    </tr>
+</table>
+</div>
