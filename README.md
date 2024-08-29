@@ -57,14 +57,14 @@
           All the Wars
         </a>
       </td>
-    </tr>
-    <tr>
       <td>
         <a href="https://kscopemusic.bandcamp.com/album/dissolution" target="_blank">
           <img src="https://f4.bcbits.com/img/a3906062646_10.jpg" width="196px"/><br/>
           Dissolution
         </a>
       </td>
+    </tr>
+    <tr>
       <td>
         <a href="https://kscopemusic.bandcamp.com/album/all-this-will-be-yours" target="_blank">
           <img src="https://f4.bcbits.com/img/a2775032393_10.jpg" width="196px"/><br/>
@@ -77,8 +77,6 @@
           The Hunt
         </a>
       </td>
-    </tr>
-    <tr>
       <td>
         <a href="https://deepelmrecords.bandcamp.com/album/where-to-hide" target="_blank">
           <img src="https://f4.bcbits.com/img/a0412640049_10.jpg" width="196px"/><br/>
@@ -91,14 +89,14 @@
           Who You Are is not Enough
         </a>
       </td>
+    </tr>
+    <tr>
       <td>
         <a href="https://deepelmrecords.bandcamp.com/album/vi" target="_blank">
           <img src="https://f4.bcbits.com/img/a2568039307_10.jpg" width="196px"/><br/>
           VI
         </a>
       </td>
-    </tr>
-    <tr>
       <td>
         <a href="https://kscopemusic.bandcamp.com/album/ruins" target="_blank">
           <img src="https://f4.bcbits.com/img/a3617147731_10.jpg" width="196px"/><br/>
@@ -137,14 +135,15 @@
           Rising Sun
         </a>
       </td>
-    </tr>
-    <tr>
       <td>
         <a href="https://kscopemusic.bandcamp.com/album/it-leads-to-this" target="_blank">
           <img src="https://f4.bcbits.com/img/a2988136713_10.jpg" width="196px"/><br/>
           It Leads to This
         </a>
       </td>
+    </tr>
+    <tr>
+      <td></td>
       <td>
         <a href="https://kscopemusic.bandcamp.com/album/luminescence" target="_blank">
           <img src="https://f4.bcbits.com/img/a1922605869_10.jpg" width="196px"/><br/>
@@ -157,6 +156,7 @@
           Let the Truth Speak
         </a>
       </td>
+      <td></td>
     </tr>
 </table>
 </div>
