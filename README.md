@@ -15,15 +15,22 @@
   <a href="https://discord.com"><img
     src="https://img.shields.io/badge/VoxelPrismatic-white?style=flat&logo=discord&logoColor=white&labelColor=blue"
   /></a>
-  <a href="https://patreon.com/voxelprismatic"><img
-    src="https://img.shields.io/badge/VoxelPrismatic-white?style=flat&logo=patreon&logoColor=white&labelColor=red"
-  /></a>
-  <a href="https://cash.app/$VoxelPrismatic"><img
-    src="https://img.shields.io/badge/VoxelPrismatic-white?style=flat&logo=cashapp&logoColor=white&labelColor=green"
-/></a>
   <a href="https://github.com/voxelprismatic"><img
     src="https://img.shields.io/badge/VoxelPrismatic-white?style=flat&logo=github&logoColor=white&labelColor=grey"
   /></a>
+
+  <br>
+  
+  <a href="https://cash.app/$VoxelPrismatic"><img
+    src="https://img.shields.io/badge/VoxelPrismatic-white?style=flat&logo=cashapp&logoColor=white&labelColor=green"
+/></a>
+  <a href="https://patreon.com/voxelprismatic"><img
+    src="https://img.shields.io/badge/VoxelPrismatic-white?style=flat&logo=patreon&logoColor=white&labelColor=red"
+  /></a>
+  <a href="https://patreon.com/voxelprismatic"><img
+    src="https://img.shields.io/badge/VoxelPrismatic-white?style=flat&logo=liberapay&logoColor=white&labelColor=yellow"
+  /></a>
+  
 </div>
 
 <hr/>
