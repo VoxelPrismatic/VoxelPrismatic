@@ -150,7 +150,12 @@
       </td>
     </tr>
     <tr>
-      <td></td>
+      <td>
+        <a href="https://whitemothblackbutterfly.bandcamp.com/album/one-thousand-wings" target="_blank">
+          <img src="https://f4.bcbits.com/img/a0934133983_10.jpg" width="196px"/><br/>
+          One Thousand Wings
+        </a>
+      </td>
       <td>
         <a href="https://kscopemusic.bandcamp.com/album/luminescence" target="_blank">
           <img src="https://f4.bcbits.com/img/a1922605869_10.jpg" width="196px"/><br/>
@@ -163,7 +168,12 @@
           Let the Truth Speak
         </a>
       </td>
-      <td></td>
+      <td>
+        <a href="https://kscopemusic.bandcamp.com/album/magnolia-deluxe-edition" target="_blank">
+          <img src="https://f4.bcbits.com/img/a2090706938_10.jpg" width="196px"/><br/>
+          Magnolia
+        </a>
+      </td>
     </tr>
 </table>
 </div>
