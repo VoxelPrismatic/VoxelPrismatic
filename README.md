@@ -38,7 +38,7 @@
     <td>
       <!-- daily.dev -->
       <a href="https://app.daily.dev/voxelprismatic">
-        <img src="https://api.daily.dev/devcards/v2/5UXmkBL01qN7G6VGhcgSp.png?type=wide&r=z3j" height="256" alt="VoxelPrismatic's Dev Card"/>
+        <img src="./devcard.png" height="256" alt="VoxelPrismatic's Dev Card"/>
       </a>
     </td>
     <td>
