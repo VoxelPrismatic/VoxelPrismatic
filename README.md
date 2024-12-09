@@ -30,19 +30,30 @@
   <a href="https://patreon.com/voxelprismatic"><img
     src="https://img.shields.io/badge/VoxelPrismatic-white?style=flat&logo=liberapay&logoColor=white&labelColor=yellow"
   /></a>
-  
-</div>
 
 <hr/>
 
+<table>
+  <tr align="left">
+    <td>
+      <!-- daily.dev -->
+      <a href="https://app.daily.dev/voxelprismatic">
+        <img src="https://api.daily.dev/devcards/v2/5UXmkBL01qN7G6VGhcgSp.png?type=wide&r=z3j" height="256" alt="VoxelPrismatic's Dev Card"/>
+      </a>
+    </td>
+    <td>
+      
 - Creating a Neovim plugin, [Rabbit.nvim](https://github.com/voxelprismatic/rabbit.nvim)
-- College student
-- Casual programmer
+- Passionate programmer
 - Follower of Christ
 - Passionately Open Source
 - Audiophile, apparently
+- Also retarted (actually autistic)
 
-<div align="center">
+</td>
+  </tr>
+</table>
+
   <h1>Current Playlist</h1>
   <table>
     <tr>
@@ -105,9 +116,9 @@
         </a>
       </td>
       <td>
-        <a href="https://kscopemusic.bandcamp.com/album/ruins" target="_blank">
-          <img src="https://f4.bcbits.com/img/a3617147731_10.jpg" width="196px"/><br/>
-          Ruins
+        <a href="https://earthside.bandcamp.com/album/a-dream-in-static" target="_blank">
+          <img src="https://f4.bcbits.com/img/a2220009983_10.jpg" width="196px"/><br/>
+          A Dream in Static
         </a>
       </td>
       <td>
@@ -177,3 +188,5 @@
     </tr>
 </table>
 </div>
+
+
