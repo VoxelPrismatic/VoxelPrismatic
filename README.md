@@ -48,7 +48,7 @@
 - Follower of Christ
 - Passionately Open Source
 - Audiophile, apparently
-- Also retarted (actually autistic)
+- Also retarded (actually autistic)
 
 </td>
   </tr>
