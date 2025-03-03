@@ -59,132 +59,152 @@
     <tr>
       <td>
         <a href="https://kscopemusic.bandcamp.com/album/atone-expanded-edition" target="_blank">
-          <img src="https://f4.bcbits.com/img/a1286739466_10.jpg" width="196px"/><br/>
-          Atone
+          <img src="https://f4.bcbits.com/img/a1286739466_10.jpg" width="128px"/><br/>
+          <sup>Atone</sup>
         </a>
       </td>
       <td>
         <a href="https://kscopemusic.bandcamp.com/album/the-cost-of-dreaming" target="_blank">
-          <img src="https://f4.bcbits.com/img/a0091145112_10.jpg" width="196px"/><br/>
-          The Cost of Dreaming
+          <img src="https://f4.bcbits.com/img/a0091145112_10.jpg" width="128px"/><br/>
+          <sup>The Cost of Dreaming</sup>
         </a>
       </td>
       <td>
         <a href="https://kscopemusic.bandcamp.com/album/all-the-wars" target="_blank">
-          <img src="https://f4.bcbits.com/img/a4132842949_10.jpg" width="196px"/><br/>
-          All the Wars
+          <img src="https://f4.bcbits.com/img/a4132842949_10.jpg" width="128px"/><br/>
+          <sup>All the Wars</sup>
         </a>
       </td>
       <td>
         <a href="https://kscopemusic.bandcamp.com/album/dissolution" target="_blank">
-          <img src="https://f4.bcbits.com/img/a3906062646_10.jpg" width="196px"/><br/>
-          Dissolution
+          <img src="https://f4.bcbits.com/img/a3906062646_10.jpg" width="128px"/><br/>
+          <sup>Dissolution</sup>
+        </a>
+      </td>
+      <td>
+        <a href="https://kscopemusic.bandcamp.com/album/all-this-will-be-yours" target="_blank">
+          <img src="https://f4.bcbits.com/img/a2775032393_10.jpg" width="128px"/><br/>
+          <sup>All This Will Be Yours</sup>
         </a>
       </td>
     </tr>
     <tr>
       <td>
-        <a href="https://kscopemusic.bandcamp.com/album/all-this-will-be-yours" target="_blank">
-          <img src="https://f4.bcbits.com/img/a2775032393_10.jpg" width="196px"/><br/>
-          All This Will Be Yours
-        </a>
-      </td>
-      <td>
         <a href="https://deepelmrecords.bandcamp.com/album/the-hunt" target="_blank">
-          <img src="https://f4.bcbits.com/img/a2345326046_10.jpg" width="196px"/><br/>
-          The Hunt
+          <img src="https://f4.bcbits.com/img/a2345326046_10.jpg" width="128px"/><br/>
+          <sup>The Hunt</sup>
         </a>
       </td>
       <td>
         <a href="https://deepelmrecords.bandcamp.com/album/where-to-hide" target="_blank">
-          <img src="https://f4.bcbits.com/img/a0412640049_10.jpg" width="196px"/><br/>
-          Where to Hide
+          <img src="https://f4.bcbits.com/img/a0412640049_10.jpg" width="128px"/><br/>
+          <sup>Where to Hide</sup>
         </a>
       </td>
       <td>
         <a href="https://deepelmrecords.bandcamp.com/album/who-you-are-is-not-enough" target="_blank">
-          <img src="https://f4.bcbits.com/img/a0263193674_10.jpg" width="196px"/><br/>
-          Who You Are is not Enough
+          <img src="https://f4.bcbits.com/img/a0263193674_10.jpg" width="128px"/><br/>
+          <sup>Who You Are is not Enough</sup>
         </a>
       </td>
-    </tr>
-    <tr>
       <td>
         <a href="https://deepelmrecords.bandcamp.com/album/vi" target="_blank">
-          <img src="https://f4.bcbits.com/img/a2568039307_10.jpg" width="196px"/><br/>
-          VI
+          <img src="https://f4.bcbits.com/img/a2568039307_10.jpg" width="128px"/><br/>
+          <sup>VI</sup>
         </a>
       </td>
       <td>
         <a href="https://earthside.bandcamp.com/album/a-dream-in-static" target="_blank">
-          <img src="https://f4.bcbits.com/img/a2220009983_10.jpg" width="196px"/><br/>
-          A Dream in Static
+          <img src="https://f4.bcbits.com/img/a2220009983_10.jpg" width="128px"/><br/>
+          <sup>A Dream in Static</sup>
         </a>
       </td>
+    </tr>
+    <tr>
       <td>
         <a href="https://kscopemusic.bandcamp.com/album/your-wilderness" target="_blank">
-          <img src="https://f4.bcbits.com/img/a0782605810_10.jpg" width="196px"/><br/>
-          Your Wilderness
+          <img src="https://f4.bcbits.com/img/a0782605810_10.jpg" width="128px"/><br/>
+          <sup>Your Wilderness</sup>
         </a>
       </td>
       <td>
         <a href="https://kscopemusic.bandcamp.com/album/nothing-but-the-truth" target="_blank">
-          <img src="https://f4.bcbits.com/img/a0725378087_10.jpg" width="196px"/><br/>
-          Nothing But the Truth
+          <img src="https://f4.bcbits.com/img/a0725378087_10.jpg" width="128px"/><br/>
+          <sup>Nothing But the Truth</sup>
         </a>
       </td>
-    </tr>
-    <tr>
       <td>
         <a href="https://kscopemusic.bandcamp.com/album/versions-of-the-truth" target="_blank">
-          <img src="https://f4.bcbits.com/img/a3788685040_10.jpg" width="196px"/><br/>
-          Versions of the Truth
+          <img src="https://f4.bcbits.com/img/a3788685040_10.jpg" width="128px"/><br/>
+          <sup>Versions of the Truth</sup>
         </a>
       </td>
       <td>
         <a href="https://deepelmrecords.bandcamp.com/album/when-to-run" target="_blank">
-          <img src="https://f4.bcbits.com/img/a1478390910_10.jpg" width="196px"/><br/>
-          When to Run
+          <img src="https://f4.bcbits.com/img/a1478390910_10.jpg" width="128px"/><br/>
+          <sup>When to Run</sup>
         </a>
       </td>
       <td>
         <a href="https://kscopemusic.bandcamp.com/album/rising-sun" target="_blank">
-          <img src="https://f4.bcbits.com/img/a0441544812_10.jpg" width="196px"/><br/>
-          Rising Sun
-        </a>
-      </td>
-      <td>
-        <a href="https://kscopemusic.bandcamp.com/album/it-leads-to-this" target="_blank">
-          <img src="https://f4.bcbits.com/img/a2988136713_10.jpg" width="196px"/><br/>
-          It Leads to This
+          <img src="https://f4.bcbits.com/img/a0441544812_10.jpg" width="128px"/><br/>
+          <sup>Rising Sun</sup>
         </a>
       </td>
     </tr>
     <tr>
       <td>
+        <a href="https://kscopemusic.bandcamp.com/album/it-leads-to-this" target="_blank">
+          <img src="https://f4.bcbits.com/img/a2988136713_10.jpg" width="128px"/><br/>
+          <sup>It Leads to This</sup>
+        </a>
+      </td>
+      <td>
         <a href="https://whitemothblackbutterfly.bandcamp.com/album/one-thousand-wings" target="_blank">
-          <img src="https://f4.bcbits.com/img/a0934133983_10.jpg" width="196px"/><br/>
-          One Thousand Wings
+          <img src="https://f4.bcbits.com/img/a0934133983_10.jpg" width="128px"/><br/>
+          <sup>One Thousand Wings</sup>
         </a>
       </td>
       <td>
         <a href="https://kscopemusic.bandcamp.com/album/luminescence" target="_blank">
-          <img src="https://f4.bcbits.com/img/a1922605869_10.jpg" width="196px"/><br/>
-          Luminescence
+          <img src="https://f4.bcbits.com/img/a1922605869_10.jpg" width="128px"/><br/>
+          <sup>Luminescence</sup>
         </a>
       </td>
       <td>
         <a href="https://earthside.bandcamp.com/album/let-the-truth-speak" target="_blank">
-          <img src="https://f4.bcbits.com/img/a2389434154_10.jpg" width="196px"/><br/>
-          Let the Truth Speak
+          <img src="https://f4.bcbits.com/img/a2389434154_10.jpg" width="128px"/><br/>
+          <sup>Let the Truth Speak</sup>
         </a>
       </td>
       <td>
         <a href="https://kscopemusic.bandcamp.com/album/magnolia-deluxe-edition" target="_blank">
-          <img src="https://f4.bcbits.com/img/a2090706938_10.jpg" width="196px"/><br/>
-          Magnolia
+          <img src="https://f4.bcbits.com/img/a2090706938_10.jpg" width="128px"/><br/>
+          <sup>Magnolia</sup>
         </a>
       </td>
+    </tr>
+    <tr>
+      <td></td>
+      <td>
+        <a href="https://kscopemusic.bandcamp.com/album/mobula" target="_blank">
+          <img src="https://f4.bcbits.com/img/a3338566808_10.jpg" width="128px"/><br/>
+          <sup>Mobula</sup>
+        </a>
+      </td>
+      <td>
+        <a href="https://kscopemusic.bandcamp.com/album/we-ascend" target="_blank">
+          <img src="https://f4.bcbits.com/img/a0599059969_10.jpg" width="128px"/><br/>
+          <sup>We Ascend</sup>
+        </a>
+      </td>
+      <td>
+        <a href="https://earthside.bandcamp.com/track/frozen-heart-burning-world" target="_blank">
+          <img src="https://f4.bcbits.com/img/a2063856956_10.jpg" width="128px"/><br/>
+          <sup>frozen heart</sup>
+        </a>
+      </td>
+      <td></td>
     </tr>
 </table>
 </div>
