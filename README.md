@@ -55,29 +55,27 @@
 
   <h1>Current Playlist</h1>
 
-0
-
 <table>
 <tr>
 
 <td>
-	<a href="https://whitemothblackbutterfly.bandcamp.com/album/one-thousand-wings" target="_blank">
-		<img src="https://f4.bcbits.com/img/a0934133983_5.jpg" width="128px"/><br/>
-		<sup>One Thousand Wings</sup>
+	<a href="https://kscopemusic.bandcamp.com/album/envy-of-none" target="_blank">
+		<img src="https://f4.bcbits.com/img/a0895106514_5.jpg" width="128px"/><br/>
+		<sup>Envy Of None</sup>
 	</a>
 </td>
 
 <td>
-	<a href="https://earthside.bandcamp.com/album/let-the-truth-speak" target="_blank">
-		<img src="https://f4.bcbits.com/img/a2389434154_5.jpg" width="128px"/><br/>
-		<sup>Let The Truth Speak</sup>
+	<a href="https://deepelmrecords.bandcamp.com/album/when-to-run" target="_blank">
+		<img src="https://f4.bcbits.com/img/a1478390910_5.jpg" width="128px"/><br/>
+		<sup>When To Run</sup>
 	</a>
 </td>
 
 <td>
-	<a href="https://kscopemusic.bandcamp.com/album/dissolution" target="_blank">
-		<img src="https://f4.bcbits.com/img/a3906062646_5.jpg" width="128px"/><br/>
-		<sup>Dissolution</sup>
+	<a href="https://deepelmrecords.bandcamp.com/album/vi" target="_blank">
+		<img src="https://f4.bcbits.com/img/a2568039307_5.jpg" width="128px"/><br/>
+		<sup>VI</sup>
 	</a>
 </td>
 
@@ -89,9 +87,9 @@
 </td>
 
 <td>
-	<a href="https://earthside.bandcamp.com/album/a-dream-in-static" target="_blank">
-		<img src="https://f4.bcbits.com/img/a2220009983_5.jpg" width="128px"/><br/>
-		<sup>A Dream In Static</sup>
+	<a href="https://kscopemusic.bandcamp.com/album/all-the-wars" target="_blank">
+		<img src="https://f4.bcbits.com/img/a4132842949_5.jpg" width="128px"/><br/>
+		<sup>All The Wars</sup>
 	</a>
 </td>
 
@@ -99,9 +97,47 @@
 <tr>
 
 <td>
-	<a href="https://deepelmrecords.bandcamp.com/album/what-makes-you-think-this-is-how-it-all-ends" target="_blank">
-		<img src="https://f4.bcbits.com/img/a3944524726_5.jpg" width="128px"/><br/>
-		<sup>What Makes You Think This Is How It All Ends?</sup>
+	<a href="https://kscopemusic.bandcamp.com/album/it-leads-to-this" target="_blank">
+		<img src="https://f4.bcbits.com/img/a2988136713_5.jpg" width="128px"/><br/>
+		<sup>It Leads To This</sup>
+	</a>
+</td>
+
+<td>
+	<a href="https://deepelmrecords.bandcamp.com/album/where-to-hide" target="_blank">
+		<img src="https://f4.bcbits.com/img/a0412640049_5.jpg" width="128px"/><br/>
+		<sup>Where To Hide</sup>
+	</a>
+</td>
+
+<td>
+	<a href="https://kscopemusic.bandcamp.com/album/nothing-but-the-truth" target="_blank">
+		<img src="https://f4.bcbits.com/img/a0725378087_5.jpg" width="128px"/><br/>
+		<sup>Nothing But The Truth</sup>
+	</a>
+</td>
+
+<td>
+	<a href="https://kscopemusic.bandcamp.com/album/luminescence" target="_blank">
+		<img src="https://f4.bcbits.com/img/a1922605869_5.jpg" width="128px"/><br/>
+		<sup>Luminescence</sup>
+	</a>
+</td>
+
+<td>
+	<a href="https://kscopemusic.bandcamp.com/album/dissolution" target="_blank">
+		<img src="https://f4.bcbits.com/img/a3906062646_5.jpg" width="128px"/><br/>
+		<sup>Dissolution</sup>
+	</a>
+</td>
+
+</tr>
+<tr>
+
+<td>
+	<a href="https://kscopemusic.bandcamp.com/album/your-wilderness" target="_blank">
+		<img src="https://f4.bcbits.com/img/a0782605810_5.jpg" width="128px"/><br/>
+		<sup>Your Wilderness</sup>
 	</a>
 </td>
 
@@ -113,23 +149,23 @@
 </td>
 
 <td>
+	<a href="https://kscopemusic.bandcamp.com/album/versions-of-the-truth" target="_blank">
+		<img src="https://f4.bcbits.com/img/a3788685040_5.jpg" width="128px"/><br/>
+		<sup>Versions Of The Truth</sup>
+	</a>
+</td>
+
+<td>
+	<a href="https://ihlo.bandcamp.com/album/legacy" target="_blank">
+		<img src="https://f4.bcbits.com/img/a3836685146_5.jpg" width="128px"/><br/>
+		<sup>Legacy</sup>
+	</a>
+</td>
+
+<td>
 	<a href="https://kscopemusic.bandcamp.com/album/all-this-will-be-yours" target="_blank">
 		<img src="https://f4.bcbits.com/img/a2775032393_5.jpg" width="128px"/><br/>
 		<sup>All This Will Be Yours</sup>
-	</a>
-</td>
-
-<td>
-	<a href="https://kscopemusic.bandcamp.com/album/atone-expanded-edition" target="_blank">
-		<img src="https://f4.bcbits.com/img/a1286739466_5.jpg" width="128px"/><br/>
-		<sup>Atone</sup>
-	</a>
-</td>
-
-<td>
-	<a href="https://kscopemusic.bandcamp.com/album/luminescence" target="_blank">
-		<img src="https://f4.bcbits.com/img/a1922605869_5.jpg" width="128px"/><br/>
-		<sup>Luminescence</sup>
 	</a>
 </td>
 
@@ -137,16 +173,16 @@
 <tr>
 
 <td>
-	<a href="https://kscopemusic.bandcamp.com/album/magnolia-deluxe-edition" target="_blank">
-		<img src="https://f4.bcbits.com/img/a2090706938_5.jpg" width="128px"/><br/>
-		<sup>Magnolia</sup>
+	<a href="https://deepelmrecords.bandcamp.com/album/who-you-are-is-not-enough" target="_blank">
+		<img src="https://f4.bcbits.com/img/a0263193674_5.jpg" width="128px"/><br/>
+		<sup>Who You Are Is Not Enough</sup>
 	</a>
 </td>
 
 <td>
-	<a href="https://kscopemusic.bandcamp.com/album/your-wilderness" target="_blank">
-		<img src="https://f4.bcbits.com/img/a0782605810_5.jpg" width="128px"/><br/>
-		<sup>Your Wilderness</sup>
+	<a href="https://kscopemusic.bandcamp.com/album/magnolia-deluxe-edition" target="_blank">
+		<img src="https://f4.bcbits.com/img/a2090706938_5.jpg" width="128px"/><br/>
+		<sup>Magnolia</sup>
 	</a>
 </td>
 
@@ -158,16 +194,16 @@
 </td>
 
 <td>
-	<a href="https://kscopemusic.bandcamp.com/album/versions-of-the-truth" target="_blank">
-		<img src="https://f4.bcbits.com/img/a3788685040_5.jpg" width="128px"/><br/>
-		<sup>Versions Of The Truth</sup>
+	<a href="https://kscopemusic.bandcamp.com/album/atone-expanded-edition" target="_blank">
+		<img src="https://f4.bcbits.com/img/a1286739466_5.jpg" width="128px"/><br/>
+		<sup>Atone</sup>
 	</a>
 </td>
 
 <td>
-	<a href="https://kscopemusic.bandcamp.com/album/envy-of-none" target="_blank">
-		<img src="https://f4.bcbits.com/img/a0895106514_5.jpg" width="128px"/><br/>
-		<sup>Envy Of None</sup>
+	<a href="https://earthside.bandcamp.com/album/let-the-truth-speak" target="_blank">
+		<img src="https://f4.bcbits.com/img/a2389434154_5.jpg" width="128px"/><br/>
+		<sup>Let The Truth Speak</sup>
 	</a>
 </td>
 
@@ -175,16 +211,9 @@
 <tr>
 
 <td>
-	<a href="https://kscopemusic.bandcamp.com/album/all-the-wars" target="_blank">
-		<img src="https://f4.bcbits.com/img/a4132842949_5.jpg" width="128px"/><br/>
-		<sup>All The Wars</sup>
-	</a>
-</td>
-
-<td>
-	<a href="https://kscopemusic.bandcamp.com/album/it-leads-to-this" target="_blank">
-		<img src="https://f4.bcbits.com/img/a2988136713_5.jpg" width="128px"/><br/>
-		<sup>It Leads To This</sup>
+	<a href="https://whitemothblackbutterfly.bandcamp.com/album/one-thousand-wings" target="_blank">
+		<img src="https://f4.bcbits.com/img/a0934133983_5.jpg" width="128px"/><br/>
+		<sup>One Thousand Wings</sup>
 	</a>
 </td>
 
@@ -196,9 +225,16 @@
 </td>
 
 <td>
-	<a href="https://kscopemusic.bandcamp.com/album/nothing-but-the-truth" target="_blank">
-		<img src="https://f4.bcbits.com/img/a0725378087_5.jpg" width="128px"/><br/>
-		<sup>Nothing But The Truth</sup>
+	<a href="https://earthside.bandcamp.com/album/a-dream-in-static" target="_blank">
+		<img src="https://f4.bcbits.com/img/a2220009983_5.jpg" width="128px"/><br/>
+		<sup>A Dream In Static</sup>
+	</a>
+</td>
+
+<td>
+	<a href="https://deepelmrecords.bandcamp.com/album/what-makes-you-think-this-is-how-it-all-ends" target="_blank">
+		<img src="https://f4.bcbits.com/img/a3944524726_5.jpg" width="128px"/><br/>
+		<sup>What Makes You Think This Is How It All Ends?</sup>
 	</a>
 </td>
 
@@ -211,4 +247,5 @@
 
 </tr>
 </table>
+
 </div>

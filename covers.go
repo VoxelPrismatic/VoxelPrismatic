@@ -58,6 +58,7 @@ func main() {
 		if err != nil {
 			return err
 		}
+
 		albums[album.Url] = album
 		return nil
 	})
@@ -117,7 +118,6 @@ func main() {
 	for i, v := range rows[count-1] {
 		last[i] = v
 	}
-	fmt.Println(excess)
 	for range (COLUMNS - excess) / 2 {
 		pop := last[COLUMNS-1]
 		last = slices.Concat([]Album{pop}, last[:COLUMNS-1])
@@ -142,10 +142,22 @@ var parens = regexp.MustCompile(`\(.*?\)`)
 
 func fetchBandcamp(url string) (Album, error) {
 	ret := Album{}
-	cmd := exec.Command("curl", "-s", url)
-	stdout, err := cmd.CombinedOutput()
-	if err != nil {
-		return ret, err
+	var err error
+	stdout := fmt.Appendf(nil,
+		"You are being redirected, please follow <a href=\"%s\">this link to: %s</a>!",
+		url,
+		url,
+	)
+
+	for strings.HasPrefix(string(stdout), "You are being redirected") {
+		parts := strings.Split(string(stdout), " ")
+		url = parts[len(parts)-1]
+		url = url[:len(url)-len("</a>!")]
+		cmd := exec.Command("curl", "-s", url)
+		stdout, err = cmd.CombinedOutput()
+		if err != nil {
+			return ret, err
+		}
 	}
 
 	doc, err := html.Parse(bytes.NewBuffer(stdout))
