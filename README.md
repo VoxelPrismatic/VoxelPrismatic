@@ -101,7 +101,7 @@
 <td>
 	<a href="https://deepelmrecords.bandcamp.com/album/what-makes-you-think-this-is-how-it-all-ends" target="_blank">
 		<img src="https://f4.bcbits.com/img/a3944524726_5.jpg" width="128px"/><br/>
-		<sup>What Makes You Think This Is How It All Ends?</sup>
+		<sup>What Makes You Think<br>This Is How It All Ends?</sup>
 	</a>
 </td>
 
